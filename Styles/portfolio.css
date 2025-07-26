@@ -168,3 +168,27 @@ footer input[type="text"],footer input[type="email"],footer textarea{
 footer textarea{
     height: 100px;
 }
+@media screen and (max-width:576px) {
+    .navbar,
+    .about-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+   .secondary-bg{
+    display: flex;
+    flex-direction: column;
+   }
+  .contactinfo{
+    width: 250px;
+
+  }
+  .small_images img{
+   
+    
+  }
+   
+}
